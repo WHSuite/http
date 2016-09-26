@@ -1,0 +1,20 @@
+{
+    "name": "whsuite/http",
+    "description": "HTTP Package to wrap around for Guzzle3 for requests and Symfony for Responses",
+    "license": "Private",
+    "authors": [
+        {
+            "name": "WHSuite",
+            "email": "info@whsuite.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Whsuite\\Http\\" : "src"
+        }
+    },
+    "require": {
+        "guzzle/guzzle": "~3.9",
+        "symfony/http-foundation": "~2.4"
+    }
+}
